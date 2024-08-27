@@ -1,0 +1,14 @@
+@keyframes animacao{
+from {left: 0;}
+to {left: 500px;}
+}
+
+.box{
+    width: 100px;
+    width: 100px;
+    background-color: aqua;
+    position: relative;
+    animation-name: animacao;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
